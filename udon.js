@@ -19,7 +19,6 @@ $(document).ready(function(){
         $("div#salt").html((input_box*5).toString() + "g");
         $("div#water").html((input_box*44).toString() + "mL");
       }
-      
       else if (input_box.length === 0) {
         $("div#all_cake_all").html("50");
         $("div#all_cake_cake").html("");
